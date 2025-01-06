@@ -1,11 +1,14 @@
 import React from 'react';
+import Heading from '../components/Heading';
+import ContactUs from './ContactUs';
 
 const Policy = () => {
     return (
         <div style={styles.body}>
             <div style={styles.container}>
                
-                <div style={styles.title}>Privacy Policy</div>
+                {/* <div style={styles.title}>Privacy Policy</div> */}
+                <Heading text="Privacy Policy" variant="style2" />
                 <p style={styles.updatedDate}><strong>Last Updated:</strong> 1 January 2024</p>
 
                 <p><strong>Introduction</strong></p>
@@ -59,6 +62,7 @@ const Policy = () => {
                 <div style={styles.sectionTitle}>Acknowledgment</div>
                 <p>By using our services, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
             </div>
+            <ContactUs />
         </div>
     );
 };
@@ -69,15 +73,16 @@ const styles = {
         margin: 0,
         padding: 0,
         boxSizing: 'border-box',
-        backgroundColor: '#f4f4f4',
+        // backgroundColor: '#f4f4f4',
     },
     container: {
         width: '80%',
         margin: '40px auto',
         backgroundColor: '#fff',
         padding: '30px',
+        border:'1px solid black',
         borderRadius: '10px',
-        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+        // boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
     },
     title: {
         textAlign: 'center',

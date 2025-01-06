@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* *{
+  background:rgb(0 0 100/ 0.1);
+} */
 /* Combine and refine the styles as needed */
 .combined {
   -webkit-text-fill-color: transparent;

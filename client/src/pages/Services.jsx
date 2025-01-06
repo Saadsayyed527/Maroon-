@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ServicesAccordion from "../components/ServicesAccordion";
+import Heading from '../components/Heading';
 
 const Services = () => {
     const [hoverIndex, setHoverIndex] = useState(null);
@@ -34,14 +35,18 @@ const Services = () => {
             padding: '50px 0',
         },
         servicesTitle: {
-            fontSize: '48px',
+            fontSize: '128px',
             marginBottom: '40px',
         },
         serviceList: {
             listStyle: 'none',
             padding: 0,
+            fontSize: '80px',
+            fontWeight: '800', // Corrected to camelCase
             margin: 0,
+            color:'#D8A25E'
         },
+        
         serviceItem: {
             fontSize: '24px',
             padding: '20px 0',
@@ -58,7 +63,8 @@ const Services = () => {
         <>
             <div style={styles.body}>
                 <div style={styles.services}>
-                    <h1 style={styles.servicesTitle}>Our Services</h1>
+                    {/* <h1 style={styles.servicesTitle}>Our Services</h1> */}
+                    <Heading text="Our Services" variant="style2" />
                     <ul style={styles.serviceList}>
                         {services.map((service, index) => (
                             <li
