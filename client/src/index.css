@@ -2,26 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  background: rgb(0 100 0 /0.1);
-} */
-
-
+/* Combine and refine the styles as needed */
 .combined {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
-  color:white; 
+  color: white;
   text-shadow: 
       2px 2px 1px, 
-  3px 3px 0px #9C9C9C;  
-      
-      
+      3px 3px 0px #9C9C9C;  
 }
 
+/* Keep font-family declarations */
 .font-red-hat {
   font-family: "Red Hat Display", sans-serif; 
 }
 
-.font-Alexandria{
+.font-Alexandria {
   font-family: 'Alexandria', sans-serif; 
 }
