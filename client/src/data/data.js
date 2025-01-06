@@ -35,453 +35,444 @@ const data = [
     servicesData: [
       {
         id: 1,
-        icon_1: "/whatsapp.svg",
+        icon: "/whatsapp.svg",
         heading_1: "Instagram Management",
         paragraph_1:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-          arrowIcon:"/down-circle-svgrepo-com.svg"
+        arrowDownIcon:"/down-circle-svgrepo-com.svg",
+        arrowUpIcon:"/down-circle-svgrepo-com.svg"
       },
-    //   {
-    //     id: 2,
-    //     icon_1: "/youtube.svg",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 3,
-    //     icon_1: "/whatsapp.svg",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 4,
-    //     icon_1: "/linkedin.svg",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 5,
-    //     icon_1: "/facebook.svg",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 6,
-    //     icon_1: "/twitter-alt.svg",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 7,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 8,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 9,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 10,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 11,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 12,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 13,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 14,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 15,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 16,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 17,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 18,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 19,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 20,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 21,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 22,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 23,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 24,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 25,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 26,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 27,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 28,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 29,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 30,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 31,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 32,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 33,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 34,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 35,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 36,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 37,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 38,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 39,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 40,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 41,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 42,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 43,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 44,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 45,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 46,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 47,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 48,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 49,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 50,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 51,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 52,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 53,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 54,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 55,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 56,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 57,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 58,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 59,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 60,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 61,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 62,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 63,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
-    //   {
-    //     id: 64,
-    //     icon_1: "/",
-    //     heading_1: "Instagram Management",
-    //     paragraph_1:
-    //       "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-    //   },
+      {
+        id: 2,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 3,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 4,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 5,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 6,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 7,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 8,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 9,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 10,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 11,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 12,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 13,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 14,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 15,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 16,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 17,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 18,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 19,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 20,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 21,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 22,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 23,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 24,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 25,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 26,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 27,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 28,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 29,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 30,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 31,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 32,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 33,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 34,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 35,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 36,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 37,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 38,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 39,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 40,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 41,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 42,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 43,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 44,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 45,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 46,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 47,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 48,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 49,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 50,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 51,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 52,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 53,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 54,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 55,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 56,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 57,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 58,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 59,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 60,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 61,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      {
+        id: 62,
+        icon: "/youtube.svg",
+        heading: "Instagram Management",
+        paragraph:
+          "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+      },
+      
+     
+      
+
     ],
   },
 ];
