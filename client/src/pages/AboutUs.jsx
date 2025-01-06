@@ -1,10 +1,12 @@
 import React from 'react';
+import Heading from '../components/Heading';
 
 const AboutUs = () => {
     return (
         <div style={styles.container}>
             <div style={styles.aboutSection}>
-                <h1 style={styles.title}>About Us</h1>
+                {/* <h1 style={styles.title}>About Us</h1> */}
+                <Heading text="About Us" variant="style2" />
                 <div style={styles.aboutContent}>
                     <p>
                         Welcome to <strong>Maroon Digital Rise 🚀</strong>, where your brand’s story takes center stage. We believe every business is already a brand in its own right, and our mission is to make it stronger, more visible, and sustainable in today’s fast-paced digital world.
@@ -26,11 +28,14 @@ const AboutUs = () => {
             
             <div style={styles.missionVisionContainer}>
                 <div style={styles.section}>
-                    <h2 style={styles.missionTitle}>Mission</h2>
+                    {/* <h2 style={styles.missionTitle}>Mission</h2> */}
+                    <Heading text="Mission" variant="style2" />
+
                     <p>🚀 "To craft innovative digital solutions that elevate brands, amplify their voices, and foster authentic connections in an ever-evolving world."</p>
                 </div>
                 <div style={styles.section}>
-                    <h2 style={styles.visionTitle}>Vision</h2>
+                    {/* <h2 style={styles.visionTitle}>Vision</h2> */}
+                    <Heading text="Vision" variant="style2" />
                     <p>🌟 "To redefine the digital landscape by turning brands into iconic storytellers, empowering them to inspire, lead, and create lasting impressions."</p>
                 </div>
             </div>
@@ -44,14 +49,14 @@ const styles = {
         justifyContent: 'space-around',
         flexWrap: 'wrap',
         fontFamily: 'Arial, sans-serif',
-        margin: '50px 0',
+        margin: '10px 0',
         padding: '20px',
     },
     aboutSection: {
-        maxWidth: '650px',
-        padding: '30px',
+        maxWidth: '900px',
+        padding: '10px',
         borderRadius: '10px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0)',
         backgroundColor: '#fff',
     },
     title: {
@@ -59,8 +64,13 @@ const styles = {
         marginBottom: '20px',
     },
     aboutContent: {
-        fontSize: '18px',
+        fontSize: '18px', 
+        border :"2px solid black",
+        borderRadius:'20px',
+        padding:'15px',
         lineHeight: '1.8',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+
     },
     missionVisionContainer: {
         maxWidth: '450px',
@@ -68,6 +78,7 @@ const styles = {
         flexDirection: 'column',
         gap: '30px',
         marginTop: '40px',
+        
     },
     section: {
         padding: '20px',

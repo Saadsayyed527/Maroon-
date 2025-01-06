@@ -1,7 +1,20 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+// import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
+import Heading from '../components/Heading';
+// import Footer from './Footer';
+// import Call from './Call';
 
 const ContactUs = () => {
+
+    const navigate = useNavigate();
+    
+        const handleNavigation = (url) => {
+            navigate(url);
+        };
+
+
     // List of client image filenames
     const clientImages = [
         'client1.png',
@@ -66,8 +79,8 @@ const ContactUs = () => {
             </div>
 
             {/* Highlight Section */}
-            <h2 style={styles.highlightText}>🚀 Take Your Brand to New Heights – Let’s Start Today</h2>
-
+            {/* <h2 style={styles.highlightText}>🚀 Take Your Brand to New Heights – Let’s Start Today</h2> */}
+                <Heading text="🚀 Take Your Brand to New Heights – Let’s Start Today" variant="style3" />
             {/* Main Section */}
             <div style={styles.mainSection}>
                 {/* Placeholder Image */}
@@ -139,22 +152,36 @@ const ContactUs = () => {
             </div>
 
             {/* Footer */}
-            <footer style={styles.footer}>
+           {/* <Footer/> */}
+           <footer style={styles.footer}>
                 <div style={styles.footerLinks}>
-                    <p>About us</p>
-                    <p>Careers</p>
-                    <p>Terms of Services</p>
-                    <p>Privacy Policy</p>
-                </div>
+                <button onClick={() => handleNavigation('/about')}>About Us</button>
+
+                   <br />
+                <button onClick={() => handleNavigation('/family')}>Careers</button>
+<br />
+                    <button onClick={() => handleNavigation('/terms')}>Terms of Services</button>
+<br />
+                    <button onClick={() => handleNavigation('/policy')}> Privacy Policy</button>
+                    </div>
                 <div style={styles.footerContact}>
                     <p><strong>Contact us</strong></p>
-                    <p>maroondigitalrise@gmail.com</p>
-                    <p>+91 95255 11434</p>
-                    <p>+91 72183 58766</p>
+                    <p>
+    <a href="mailto:maroondigitalrise@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+        maroondigitalrise@gmail.com
+    </a>
+</p>
+
+<p>
+    
+</p>
+
+
+
+{/* <Call/> */}
+
                 </div>
-                <div style={styles.logo}>Maroon Digital Rise</div>
-                <p>Follow & Connect us on</p>
-                <p>© All Rights Reserved by Maroon Digital Rise</p>
+               {/* <Footer/> */}
             </footer>
         </div>
     );

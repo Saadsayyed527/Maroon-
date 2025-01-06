@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="logo">
-               <img src="Mlogo.png" alt="" width={"120px"} />
+               <img src="Mlogo.png" alt="logo" width={"120px"} />
             </div>
             <div className="nav-links">
             <button onClick={() => handleNavigation('/')}>Home</button>
@@ -21,7 +21,7 @@ const Navbar = () => {
                
                 <button onClick={() => handleNavigation('/family')}>Family</button>
                 <button onClick={() => handleNavigation('/terms')}>Terms</button>
-                
+
                 <button onClick={() => handleNavigation('/policy')}>Policy</button>
                
               
