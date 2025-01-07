@@ -1,46 +1,14 @@
 const data = [
   {
-    headings: [
-      {
-        id: 1,
-        heading_1: "SOCIAL MEDIA MANAGEMENT",
-      },
-      {
-        id: 2,
-        heading_2: "LEGAL DOCUMENTATION",
-      },
-      {
-        id: 3,
-        heading_3: "DESIGN & EDITING",
-      },
-      {
-        id: 4,
-        heading_4: "BUSINESS ESSENTIALS",
-      },
-      {
-        id: 5,
-        heading_5: "WEBSITE DEVELOPMENT",
-      },
-      {
-        id: 6,
-        heading_6: "BRANDING",
-      },
-      {
-        id: 7,
-        heading_7: "E-COMMERCE",
-      },
-    ],
-  },
-  {
     servicesData: [
       {
         id: 1,
         icon: "/whatsapp.svg",
-        heading_1: "Instagram Management",
-        paragraph_1:
+        heading: "Instagram Management",
+        paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
-        arrowDownIcon:"/down-circle-svgrepo-com.svg",
-        arrowUpIcon:"/down-circle-svgrepo-com.svg"
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 2,
@@ -48,6 +16,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 3,
@@ -55,6 +25,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 4,
@@ -62,6 +34,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 5,
@@ -69,6 +43,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 6,
@@ -76,6 +52,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 7,
@@ -83,6 +61,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 8,
@@ -90,6 +70,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 9,
@@ -97,6 +79,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 10,
@@ -104,6 +88,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 11,
@@ -111,6 +97,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 12,
@@ -118,6 +106,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 13,
@@ -125,6 +115,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 14,
@@ -132,6 +124,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 15,
@@ -139,6 +133,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 16,
@@ -146,6 +142,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 17,
@@ -153,6 +151,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 18,
@@ -160,6 +160,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 19,
@@ -167,6 +169,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 20,
@@ -174,6 +178,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 21,
@@ -181,6 +187,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 22,
@@ -188,6 +196,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 23,
@@ -195,6 +205,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 24,
@@ -202,6 +214,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 25,
@@ -209,6 +223,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 26,
@@ -216,6 +232,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 27,
@@ -223,6 +241,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 28,
@@ -230,6 +250,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 29,
@@ -237,6 +259,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 30,
@@ -244,6 +268,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 31,
@@ -251,6 +277,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 32,
@@ -258,6 +286,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 33,
@@ -265,6 +295,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 34,
@@ -272,6 +304,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 35,
@@ -279,6 +313,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 36,
@@ -286,6 +322,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 37,
@@ -293,6 +331,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 38,
@@ -300,6 +340,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 39,
@@ -307,6 +349,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 40,
@@ -314,6 +358,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 41,
@@ -321,6 +367,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 42,
@@ -328,6 +376,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 43,
@@ -335,6 +385,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 44,
@@ -342,6 +394,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 45,
@@ -349,6 +403,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 46,
@@ -356,6 +412,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 47,
@@ -363,6 +421,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 48,
@@ -370,6 +430,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 49,
@@ -377,6 +439,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 50,
@@ -384,6 +448,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 51,
@@ -391,6 +457,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 52,
@@ -398,6 +466,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 53,
@@ -405,6 +475,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 54,
@@ -412,6 +484,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 55,
@@ -419,6 +493,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 56,
@@ -426,6 +502,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 57,
@@ -433,6 +511,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 58,
@@ -440,6 +520,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 59,
@@ -447,6 +529,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 60,
@@ -454,6 +538,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 61,
@@ -461,6 +547,8 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
       {
         id: 62,
@@ -468,11 +556,42 @@ const data = [
         heading: "Instagram Management",
         paragraph:
           "Transform into a masterpiece—grow, engage, and inspire with Instagram strategies that work.",
+        arrowDownIcon: "/down-circle-svgrepo-com.svg",
+        arrowUpIcon: "/down-circle-svgrepo-com.svg",
       },
-      
-     
-      
 
+      // {
+      //   headings: [
+      //     {
+      //       id: 1,
+      //       heading_1: "SOCIAL MEDIA MANAGEMENT",
+      //     },
+      //     {
+      //       id: 2,
+      //       heading_2: "LEGAL DOCUMENTATION",
+      //     },
+      //     {
+      //       id: 3,
+      //       heading_3: "DESIGN & EDITING",
+      //     },
+      //     {
+      //       id: 4,
+      //       heading_4: "BUSINESS ESSENTIALS",
+      //     },
+      //     {
+      //       id: 5,
+      //       heading_5: "WEBSITE DEVELOPMENT",
+      //     },
+      //     {
+      //       id: 6,
+      //       heading_6: "BRANDING",
+      //     },
+      //     {
+      //       id: 7,
+      //       heading_7: "E-COMMERCE",
+      //     },
+      //   ],
+      // },
     ],
   },
 ];
