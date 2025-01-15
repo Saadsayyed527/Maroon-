@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import ContactUs from "./ContactUs";
 
 const Home = () => {
-  const [isVideoEnded, setVideoEnded] = useState(false);
+  // const [isVideoEnded, setVideoEnded] = useState(false);
 
   return (
     <>
       <div style={styles.container}>
-        {isVideoEnded ? (
+        {/* {isVideoEnded ? (
           <img
             src="/intro.png" // Path to the image in the public folder
             alt="Intro"
@@ -23,8 +23,13 @@ const Home = () => {
             style={styles.video}
             onEnded={() => setVideoEnded(true)} // Handle video end
           />
-        )}
-
+        )} */}
+        <video
+          src="/videos/intro2.mp4" // Path to the video in the public folder
+          autoPlay
+          muted
+          style={styles.video}
+        />
       </div>
       <AboutUs />
       <Services />
@@ -33,30 +38,21 @@ const Home = () => {
   );
 };
 
-const navbarHeight = 60; // Replace this with your actual navbar height in pixels
-
 const styles = {
   container: {
-    margin: 0,
-    padding: 0,
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100vw",
-    height: `calc(100vh - ${navbarHeight}px)`, // Subtract navbar height
-    overflow: "hidden",
-    backgroundColor: "#D8A25E",
+    width: "100%",
   },
+
   video: {
-    width: "100vw",
-    height: `100vh`, // Adjust video height
-    objectFit: "cover",
+    borderTop: "7px solid #D8A25E",
+    borderBottom: "7px solid #D8A25E",
+    width: "100%",
   },
-  image: {
-    width: "100vw",
-    height: `calc(100vh - 78px)`, // Adjust image height
-    objectFit: "cover",
-  },
+
+  // image: {
+  //   borderTop: "7px solid #D8A25E",
+  //   borderBottom: "7px solid #D8A25E",
+  // },
 };
 
 export default Home;
