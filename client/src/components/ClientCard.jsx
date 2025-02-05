@@ -5,7 +5,7 @@ import Heading from "./Heading.jsx";
 function ClientCard() {
   return (
     <>
-      <div className="mt-8 ">
+      <div className="mt-8">
         <Heading text="Our Rising Clients" variant="style2" />
       </div>
 
@@ -17,7 +17,7 @@ function ClientCard() {
               key={client.id}
               style={{
                 ...styles.clientCard,
-                height: isLastCard ? "400px" : "auto",
+                height: isLastCard ? "414px" : "auto",
               }}
             >
               <div className="px-4">
@@ -49,7 +49,7 @@ function ClientCard() {
                 </>
               )}
               {isLastCard && (
-                <p style={{ fontSize: "18px" }}>
+                <p style={{ fontSize: "18px", width: "100%", textWrap: "wrap" }}>
                   This spot is reserved for You and Your Brand; let's build your
                   success story together. 🚀
                 </p>
@@ -66,34 +66,56 @@ export default ClientCard;
 
 const styles = {
   clientsSection: {
-    display: "grid",
-    gridTemplateColumns: "repeat(6, 1fr)", // Create 6 equal columns
-    justifyItems: "center",
-    textAlign:"center",
-    marginTop:"45px",
-    margin: "30px",
-    gap: "20px", // Add spacing between cards
+    // display: "grid",
+    // gridTemplateColumns: "repeat(6, 1fr)", // Create 6 equal columns
+    // justifyItems: "center",
+    // textAlign:"center",
+    // marginTop:"45px",
+    // margin: "30px",
+    // gap: "13px", // Add spacing between cards
+
+    display: "flex", // Change from grid to flex
+    overflowX: "auto", // Enable horizontal scrolling
+    whiteSpace: "nowrap", // Prevent wrapping
+    padding: "10px 30px",
+    gap: "25px", // Space between cards
   },
   clientCard: {
+    // backgroundColor: "#fff",
+    // padding: "10px",
+    // borderRadius: "20px",
+    // boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
+    // display: "flex",
+    // flexDirection: "column",
+    // alignItems: "center", // Center content horizontally
+    // fontFamily: "'Outfit', sans-serif",
+    // border: "1px solid black",
+    // maxWidth: "210px", // Set a maximum width for the card to make it smaller
+    // width: "100%",
+    // transition: "all 0.3s ease", // Optional: Add smooth animation for height changes
+
     backgroundColor: "#fff",
-    padding: "10px",
+    padding: "12px",
     borderRadius: "20px",
     boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
     display: "flex",
     flexDirection: "column",
-    alignItems: "center", // Center content horizontally
+    alignItems: "center",
     fontFamily: "'Outfit', sans-serif",
     border: "1px solid black",
-    maxWidth: "210px", // Set a maximum width for the card to make it smaller
+    minWidth: "250px", // Ensures consistent width
+    maxWidth: "210px",
     width: "100%",
-    transition: "all 0.3s ease", // Optional: Add smooth animation for height changes
+    textAlign: "center",
+    textWrap: "balance",
+    // overflow: "hidden", // Prevents text overflow
   },
   clientImage: {
     width: "200px",
     height: "120px",
     objectFit: "contain",
     marginBottom: "20px",
-    paddingBottom:"8px",
+    paddingBottom: "8px",
     borderBottom: "2px solid #D8A25E",
   },
   companyName: {
