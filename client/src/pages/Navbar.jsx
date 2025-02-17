@@ -25,7 +25,7 @@ const Navbar = () => {
                 <button onClick={() => handleNavigation('/policy')}>Policy</button>
                
               
-                <button onClick={() => handleNavigation('/socialmedia')}>SocialMedia</button>
+                {/* <button onClick={() => handleNavigation('/socialmedia')}>SocialMedia</button> */}
 
 
             </div>

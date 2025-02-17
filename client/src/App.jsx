@@ -53,7 +53,7 @@ import Family from "./pages/Family";
 import Terms from "./pages/Terms";
 import SocialMedia from "./pages/SocialMedia";
 import Navbar from "./pages/Navbar";
-import CircularCursor from "./components/CircularCursor";
+// import CircularCursor from "./components/CircularCursor";
 import DigitalMarketing from "./components/services/DigitalMarketing";
 import Branding from "./components/services/Branding";
 import SocialMediaManagement from "./components/services/SocialMediaManagement";
