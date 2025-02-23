@@ -6,8 +6,12 @@ import ServicesHeading from "../ServicesHeading";
 import React, { useState } from "react";
 import accordionDownIcon from "/accordionDownIcon.svg";
 import accordionUpIcon from "/accordionUpIcon.svg";
-import instagramIcon from "/Instagram-Mangement-maroon-digital-rise-digital-marketing-pune-india.svg";
-
+import icon1 from "/service_images/Social Media Management/1.svg";
+import icon2 from "/service_images/Social Media Management/2.svg";
+import icon3 from "/service_images/Social Media Management/3.svg";
+import icon4 from "/service_images/Social Media Management/4.svg";
+import icon5 from "/service_images/Social Media Management/5.svg";
+import icon6 from "/service_images/Social Media Management/6.svg";
 const ServicesAccordion = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,7 +36,7 @@ const ServicesAccordion = () => {
       >
         {/* Icon on the left */}
         <span className="mr-4">
-          <img src={instagramIcon} alt="Service Icon" />
+          <img src={icon1} alt="Service Icon" />
         </span>
         {/* Heading and Paragraph */}
         <div className="w-[600px]">
@@ -151,7 +155,7 @@ const ServicesAccordion2 = () => {
       >
         {/* Icon on the left */}
         <span className="mr-4">
-          <img src={instagramIcon} alt="Service Icon" />
+          <img src={icon2} alt="Service Icon" />
         </span>
         {/* Heading and Paragraph */}
         <div className="w-[600px]">
@@ -274,7 +278,7 @@ const ServicesAccordion3 = () => {
       >
         {/* Icon on the left */}
         <span className="mr-4">
-          <img src={instagramIcon} alt="Service Icon" />
+          <img src={icon3} alt="Service Icon" />
         </span>
         {/* Heading and Paragraph */}
         <div className="w-[600px]">
@@ -393,7 +397,7 @@ const ServicesAccordion4 = () => {
       >
         {/* Icon on the left */}
         <span className="mr-4">
-          <img src={instagramIcon} alt="Service Icon" />
+          <img src={icon4} alt="Service Icon" />
         </span>
         {/* Heading and Paragraph */}
         <div className="w-[600px]">
@@ -517,7 +521,7 @@ const ServicesAccordion5 = () => {
       >
         {/* Icon on the left */}
         <span className="mr-4">
-          <img src={instagramIcon} alt="Service Icon" />
+          <img src={icon5} alt="Service Icon" />
         </span>
         {/* Heading and Paragraph */}
         <div className="w-[600px]">
@@ -640,7 +644,7 @@ const ServicesAccordion6 = () => {
       >
         {/* Icon on the left */}
         <span className="mr-4">
-          <img src={instagramIcon} alt="Service Icon" />
+          <img src={icon6} alt="Service Icon" />
         </span>
         {/* Heading and Paragraph */}
         <div className="w-[600px]">
