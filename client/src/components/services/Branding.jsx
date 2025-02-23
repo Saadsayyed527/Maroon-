@@ -66,22 +66,48 @@ const ServicesAccordion = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Custom Logo Design:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Unique logos tailored to your brand identity and target audience.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Monogram & Iconic Logos:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Simple, clean, and memorable lettermark or symbol-based logos.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Wordmark Logos:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Text-based logos that emphasize typography and brand name.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Combination Mark:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Logos that merge symbols and text for versatility.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Mascot Logos:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Fun and creative characters representing your brand’s persona.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Logo Redesign:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Revamping existing logos to give a fresh, modern look while retaining brand essence.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -161,22 +187,40 @@ const ServicesAccordion2 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Brand Audit:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Evaluating your current brand presence, messaging, and performance.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Logo Redesign:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Modernizing or transforming your visual identity to align with new goals.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Brand Messaging Refresh:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Refining tone, tagline, and communication to stay relevant.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Visual Identity Overhaul:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Redesigning brand visuals (colors, fonts, packaging) for consistency.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Launch Strategy:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Planning and executing a seamless rebranding rollout.</li>
+</ul>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -259,22 +303,41 @@ const ServicesAccordion3 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Brand Narrative Development:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Creating a compelling origin and purpose-driven story.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Content Strategy:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Aligning storytelling with blogs, social media, and video marketing.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Customer-Centric Stories:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Highlighting customer testimonials and success stories.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Visual Storytelling:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Combining design and visuals to narrate your brand’s journey.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Scriptwriting for Campaigns:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Engaging storylines for ads, videos, and brand promotions.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -357,22 +420,40 @@ const ServicesAccordion4 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Product Packaging:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Attractive, functional, and sustainable packaging designs.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Box & Label Design:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Custom designs for product boxes and informative labels.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Eco-Friendly Packaging:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Creative designs with biodegradable and recyclable materials.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Luxury Packaging:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Premium designs for high-end products to enhance brand value.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Mockups & Prototypes:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Visual and physical samples of packaging for approval before production.</li>
+</ul>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -455,22 +536,41 @@ const ServicesAccordion5 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Tagline Creation:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Short, impactful phrases that summarize your brand promise.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Brand Voice Development:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Defining tone, language, and style of communication.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Core Messaging Framework:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Developing key messages for various platforms (social media, ads, emails).</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Slogan Development:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Crafting marketing-focused taglines for campaigns and ads.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Call-to-Action (CTA) Optimization:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Writing persuasive CTAs to drive engagement and conversions.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -553,22 +653,41 @@ const ServicesAccordion6 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Brand Positioning:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Identifying your market niche and creating a clear position in the audience’s mind.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Competitive Analysis:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Studying competitors to highlight your unique selling points (USPs).</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Target Audience Analysis:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Understanding audience personas, needs, and behaviors for better engagement.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Brand Architecture:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Structuring and organizing sub-brands, products, or services effectively.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Go-to-Market Strategy:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Building a roadmap for launching or repositioning your brand.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -651,22 +770,40 @@ const ServicesAccordion7 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Corporate Identity Creation:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Logos, stationery, presentations, and email signatures.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Business Stationery:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Letterheads, business cards, ID cards, and branded envelopes.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Office Branding:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Wall graphics, signage, and in-office branding elements.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Presentation Design:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Professional PowerPoint or pitch deck designs for meetings.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Corporate Merchandise:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Branded pens, mugs, notebooks, and other corporate giveaways.</li>
+</ul>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -749,22 +886,41 @@ const ServicesAccordion8 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Custom Apparel:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>T-shirts, hoodies, caps, and uniforms with branded designs.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Promotional Products:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Mugs, keychains, water bottles, bags, and other giveaways.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Event Merchandise:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Branded items for events, trade shows, or corporate celebrations.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Print-Ready Designs:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Ready-to-use files for seamless production.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Seasonal Collections:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Customized merchandise aligned with holidays or trends.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
