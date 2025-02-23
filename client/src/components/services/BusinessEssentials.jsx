@@ -68,22 +68,34 @@ const ServicesAccordion = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Corporate Brochures:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Professional layouts for showcasing services and products.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Product Catalogs:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Detailed brochures for comprehensive product displays.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Event Brochures:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Custom designs for conferences, exhibitions, or special events.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Educational Brochures:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Informative materials for schools, universities, or workshops.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -165,22 +177,34 @@ const ServicesAccordionb = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Restaurant Menus:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Creative and appetizing layouts for dine-in or takeaway.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Cafe Menus:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Trendy and artistic designs tailored to modern cafes.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Event Menus:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Elegant layouts for weddings, parties, or corporate events.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Digital Menus:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>QR-enabled menus for easy access and updates.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -265,22 +289,34 @@ const ServicesAccordion3 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Corporate Presentations:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Polished slides for business meetings and pitches.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Investor Decks:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Compelling presentations to attract stakeholders.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Educational Slides:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Informative and engaging layouts for teaching or training.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Event-Specific Slides:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Custom themes for conferences and seminars.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -365,22 +401,34 @@ const ServicesAccordion4 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Corporate Envelopes:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Professional branding for official use.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Custom Envelopes:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Unique layouts for personalized communication.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Thematic Designs:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Tailored designs for events, invitations, or promotions.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Secure Envelopes:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Tamper-proof solutions with branding.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -465,22 +513,33 @@ const ServicesAccordion5 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Custom Designs:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Tailored layouts with unique typography and graphics.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Premium Cards:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Laminated, embossed, or foil-stamped options for luxury appeal.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Digital Visiting Cards:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Interactive, eco-friendly, and shareable formats.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Minimalistic Designs:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Simple, elegant cards focusing on clarity and professionalism.</li>
+</ul>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -565,22 +624,34 @@ const ServicesAccordion6 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Corporate ID Cards:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Personalized designs with branding for employees.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Event Badges:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Creative designs for attendees, speakers, or VIPs.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Smart Cards:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Integration with barcodes or RFID technology.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Security Cards:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Enhanced designs with holographic elements and watermarks.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -665,22 +736,41 @@ const ServicesAccordion7 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Gift Tags and Cards:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Personalized tags for corporate or personal gifting.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Notepads/Diary:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Branded designs for internal or promotional use.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Calendars:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Stylish, functional calendars with custom themes for the year.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Seals and Stamps:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Custom rubber stamps, wax seal designs, and E-stamp for unique branding.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Pens & Accessories:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Stylish branding for daily essentials.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -765,22 +855,34 @@ const ServicesAccordion8 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Custom Signatures:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Personalized, branded email sign-offs.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Interactive Signatures:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Embedded links to social media, websites, or contact forms.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Dynamic Signatures:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Rotating banners or seasonal updates.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Professional Designs:
+</h6>
+<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+  <li>Consistent branding across teams or organizations.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span

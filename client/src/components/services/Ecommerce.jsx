@@ -69,22 +69,40 @@ const ServicesAccordion = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Optimized Product Titles:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Eye-catching and keyword-rich titles to rank higher in searches.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Detailed Product Descriptions:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Engaging content highlighting features, benefits, and specifications.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Listing Across Platforms:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Listing synchronization across platforms (Amazon, Flipkart, eBay, etc.).
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Category Mapping:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Accurate categorization for better discoverability.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Inventory Management:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Real-time tracking and updates for stock availability.
+</p>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -166,22 +184,40 @@ const ServicesAccordion2 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Shoppable Posts:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Enable direct purchases from social media platforms.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Product Tagging:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Highlight products in posts and stories for easy discovery.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Social Media Storefronts:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Seamless integration with platforms like Instagram Shops and Facebook Marketplace.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Engagement Insights:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Analyze user interactions to optimize social sales strategies.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Cross-Promotion:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Drive traffic between your e-commerce site and social channels.
+</p>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -267,21 +303,40 @@ const ServicesAccordion3 = () => {
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
             <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+  SEO-Friendly Descriptions:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Optimized for better visibility on search engines.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Tone Customization:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Tailored writing style to match your brand identity.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Feature Highlighting:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Clearly outline unique selling points and benefits.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Call-to-Action (CTA):
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Persuasive CTAs to guide users toward purchase decisions.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Multilingual Support:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Descriptions in multiple languages to cater to diverse audiences.
+</p>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -366,22 +421,40 @@ const ServicesAccordion4 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Custom Storefront Design:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Aesthetic, user-friendly designs reflecting your brand.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Responsive Layouts:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Optimized for desktop, mobile, and tablets.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Integrated Payment Solutions:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Support for multiple payment gateways and methods.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  User Journey Mapping:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Streamlined navigation for better shopping experiences.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Inventory & Order Management Systems:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Efficient backend tools for business operations.
+</p>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -466,22 +539,41 @@ const ServicesAccordion5 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Target Audience Analysis:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Identify and segment potential customers for focused marketing.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Multi-Channel Promotions:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Campaigns across email, social media, and search engines.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  A/B Testing:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Optimize ads, headlines, and visuals for higher engagement.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Seasonal Campaigns:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Strategic marketing during high-demand periods like festivals or sales.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Performance Analytics:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Measure and enhance campaign results for better ROI.
+</p>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -566,22 +658,40 @@ const ServicesAccordion6 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Ad Campaign Planning:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Goal-oriented campaigns designed to drive sales.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Google Shopping Ads:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Showcase your products directly in search results.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Social Media Ads:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Targeted ads on platforms like Instagram and Facebook.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Retargeting Campaigns:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Bring back potential customers who left your store.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Performance Tracking:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Regular reports to refine strategies and maximize results.
+</p>
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span

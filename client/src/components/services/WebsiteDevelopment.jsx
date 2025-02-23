@@ -69,22 +69,34 @@ const ServicesAccordion = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Modern Aesthetics:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Visually appealing and brand-aligned designs.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Responsive Design:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Optimized for seamless use on all devices.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  SEO-Friendly Structure:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Improved search rankings with clean architecture.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Multimedia Integration:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Support for videos, animations, and other elements.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -166,22 +178,34 @@ const ServicesAccordion2 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  User-Friendly Interfaces:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Intuitive designs for a smooth experience.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Scalable Solutions:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Technologies that grow with your business.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Industry-Specific Tools:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Custom applications for healthcare, finance, etc.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Cloud Integration:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Enhanced accessibility and performance through cloud services.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -266,22 +290,34 @@ const ServicesAccordion3 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Advanced Search:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Filters and recommendation engines for better UX.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Interactive Tools:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Booking systems, chat features, and feedback forms.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Payment Systems:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Secure and diverse payment gateway integration.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Immersive Tech:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>AR/VR integrations for enhanced engagement.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -367,22 +403,34 @@ Stay secure with robust, encrypted solutions that protect your website and user 
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  SSL Encryption:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Secure data transfer with SSL certification.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Threat Protection:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Firewalls and malware defenses.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Vulnerability Testing:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Regular assessments to identify security gaps.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Backup Solutions:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Data recovery and backup services for peace of mind.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -467,22 +515,27 @@ const ServicesAccordion5 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Conversion Optimization:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Designs that focus on turning visitors into leads.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Clear CTAs:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Strategically placed call-to-action buttons.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Performance Enhancement:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Fast loading times and SEO optimization.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -567,22 +620,34 @@ const ServicesAccordion6 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Tailored Solutions:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Websites built from scratch to meet specific needs.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  High-Performance Standards:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Reliable, fast, and efficient coding.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Global Reach:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Multi-language support for an international audience.</li>
+</ul>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Scalability:
+</h6>
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+  <li>Designed to adapt as your business grows.</li>
+</ul>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -667,22 +732,34 @@ const ServicesAccordion7 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  CRM Integration:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Sync with tools like Salesforce, HubSpot, or Zoho.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Payment Gateways:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Integrate PayPal, Stripe, Razorpay, and more.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Social Media APIs:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Seamless connectivity with Facebook, Instagram, etc.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Analytics Tools:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Integration of Google Analytics for actionable insights.
+</p>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
@@ -767,22 +844,34 @@ const ServicesAccordion8 = () => {
       {isOpen && (
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
-            <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
-            <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
-            </ul>
+          <h6 className="font-semibold text-lg leading-6">
+  Ongoing Updates:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Ensures compatibility with new technologies.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Tracking & Monitoring:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Proactive support for uptime and security.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Bug Fixes:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Quick resolution of technical issues.
+</p>
+
+<h6 className="mt-4 font-semibold text-lg leading-6">
+  Content Management:
+</h6>
+<p className="mt-2 font-normal text-lg leading-6">
+  Updates to keep your site fresh and relevant.
+</p>
+
 
             {/* Arrow Up Icon inside the Accordion Body */}
             <span
