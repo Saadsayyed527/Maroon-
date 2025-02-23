@@ -170,20 +170,18 @@ const ServicesAccordion2 = () => {
         <section>
           <div className="bg-gray-100 relative rounded-b-[15px] pt-4 pl-4">
             <h6 className="font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
+            Channel Setup and Optimization:</h6>
             <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
+              <li>Crafting professional channel art and logo.</li>
+              <li>Writing SEO-friendly descriptions and video titles.</li>
+              
             </ul>
             <h6 className="mt-4 font-semibold text-lg leading-6">
-              Content Creation:
-            </h6>
+            Video Production Support:            </h6>
             <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
-              <li>Designing visually appealing posts, reels, and stories.</li>
-              <li>Writing engaging captions with targeted hashtags.</li>
-              <li>Creating carousel posts and IGTV videos.</li>
+              <li>Scripting, editing, and adding animations.</li>
+              <li>Thumbnail creation for higher click-through rates.</li>
+              
             </ul>
 
             {/* Arrow Up Icon inside the Accordion Body */}
