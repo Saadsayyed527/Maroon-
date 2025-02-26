@@ -308,7 +308,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Heading from "../components/Heading";
 import { useNavigate } from "react-router-dom";
-
+import ContactUs from "./ContactUs";
 const Services = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
    const navigate = useNavigate();
@@ -401,6 +401,7 @@ const Services = () => {
           ))}
         </ul>
       </div>
+    <ContactUs/>
     </div>
   );
 };

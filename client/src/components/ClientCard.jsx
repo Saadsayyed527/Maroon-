@@ -1,112 +1,14 @@
-// import React from 'react';
-// import clientData from "../data/clientdata.js";
-
-// function ClientCard() {
-//   return (
-//     <>
-//       <div style={styles.clientsSection}>
-//         {clientData.map((client) => (
-//           <div key={client.id} style={styles.clientCard}>
-//             <img
-//               src={`/clients/${client.image}`} 
-//               alt={client.companyName}
-//               style={styles.clientImage}
-//             />
-//             <h3 style={styles.companyName}>{client.companyName}</h3>
-//             <p style={styles.servicesTitle}>Services:</p>
-//             <ul style={styles.servicesList}>
-//               {client.services.map((service, index) => (
-//                 <li key={index} style={styles.serviceItem}>
-//                   {service}
-//                 </li>
-//               ))}
-//             </ul>
-//             <a
-//               href={client.link}
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               style={styles.viewProject}
-//             >
-//               View Project
-//             </a>
-//           </div>
-//         ))}
-//       </div>
-//     </>
-//   );
-// }
-
-// export default ClientCard;
-
-// const styles = {
-//   clientsSection: {
-//     display: "grid",
-//     gridTemplateColumns: "repeat(6, 1fr)", // Create 6 equal columns
-//     justifyItems: "center",
-//     textAlign: "center",
-//     margin: "30px",
-//   },
-//   clientCard: {
-//     backgroundColor: "#fff",
-//     padding: "10px",
-//     borderRadius: "20px",
-//     boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
-//     display: "flex",
-//     flexDirection: "column",
-//     alignItems: "center", // Center content horizontally
-//     fontFamily: "'Outfit', sans-serif",
-//     border: "1px solid black",
-//     maxWidth: "200px", // Set a maximum width for the card to make it smaller
-//     width: "100%",
-//   },
-//   clientImage: {
-//     width: "200px",
-//     height: "120px",
-//     objectFit: "contain",
-//     marginBottom: "10px",
-//   },
-//   companyName: {
-//     fontWeight: "400",
-//     fontSize: "18px", // Apply bold (700) weight to the company name
-//     margin: "10px 0",
-//     color: "#000",
-//     fontFamily: "'Outfit', sans-serif", // Apply Outfit font to company name
-//   },
-//   servicesTitle: {
-//     fontWeight: "700",
-//     fontSize: "16px",
-//     // margin: "10px 0 5px",
-//     color: "#000", // Black color for the text
-//     fontFamily: "'Outfit', sans-serif", // Apply Outfit font to services title
-//   },
-//   servicesList: {
-//     listStyle: "none",
-//     fontSize: "16px",
-//     padding: 0,
-//     margin: "0 0 10px",
-//     fontFamily: "'Outfit', sans-serif", // Apply Outfit font to services list
-//   },
-//   serviceItem: {
-//     fontSize: "14px",
-//     color: "#000",
-//     fontFamily: "'Outfit', sans-serif", // Apply Outfit font to service items
-//   },
-//   viewProject: {
-//     fontWeight: "700",
-//     fontSize: "16px",
-//     color: "#0C8CE9",
-//     textDecoration: "none",
-//     fontFamily: "'Outfit', sans-serif",
-//     marginTop: "auto",
-//   },
-// };
-
 import React from "react";
 import clientData from "../data/clientdata.js";
+import Heading from "./Heading.jsx";
 
 function ClientCard() {
   return (
     <>
+      <div className="mt-8">
+        <Heading text="Our Rising Clients" variant="style2" />
+      </div>
+
       <div style={styles.clientsSection}>
         {clientData.map((client, index) => {
           const isLastCard = index === clientData.length - 1; // Check if it's the last card
@@ -115,7 +17,7 @@ function ClientCard() {
               key={client.id}
               style={{
                 ...styles.clientCard,
-                height: isLastCard ? "400px" : "auto",
+                height: isLastCard ? "414px" : "auto",
               }}
             >
               <div className="px-4">
@@ -147,7 +49,7 @@ function ClientCard() {
                 </>
               )}
               {isLastCard && (
-                <p style={{ fontSize: "18px" }}>
+                <p style={{ fontSize: "18px", width: "100%", textWrap: "wrap" }}>
                   This spot is reserved for You and Your Brand; let's build your
                   success story together. 🚀
                 </p>
@@ -164,33 +66,56 @@ export default ClientCard;
 
 const styles = {
   clientsSection: {
-    display: "grid",
-    gridTemplateColumns: "repeat(6, 1fr)", // Create 6 equal columns
-    justifyItems: "center",
-    textAlign: "center",
-    margin: "30px",
-    gap: "20px", // Add spacing between cards
+    // display: "grid",
+    // gridTemplateColumns: "repeat(6, 1fr)", // Create 6 equal columns
+    // justifyItems: "center",
+    // textAlign:"center",
+    // marginTop:"45px",
+    // margin: "30px",
+    // gap: "13px", // Add spacing between cards
+
+    display: "flex", // Change from grid to flex
+    overflowX: "auto", // Enable horizontal scrolling
+    whiteSpace: "nowrap", // Prevent wrapping
+    padding: "10px 30px",
+    gap: "25px", // Space between cards
   },
   clientCard: {
+    // backgroundColor: "#fff",
+    // padding: "10px",
+    // borderRadius: "20px",
+    // boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
+    // display: "flex",
+    // flexDirection: "column",
+    // alignItems: "center", // Center content horizontally
+    // fontFamily: "'Outfit', sans-serif",
+    // border: "1px solid black",
+    // maxWidth: "210px", // Set a maximum width for the card to make it smaller
+    // width: "100%",
+    // transition: "all 0.3s ease", // Optional: Add smooth animation for height changes
+
     backgroundColor: "#fff",
-    padding: "10px",
+    padding: "12px",
     borderRadius: "20px",
     boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
     display: "flex",
     flexDirection: "column",
-    alignItems: "center", // Center content horizontally
+    alignItems: "center",
     fontFamily: "'Outfit', sans-serif",
     border: "1px solid black",
-    maxWidth: "210px", // Set a maximum width for the card to make it smaller
+    minWidth: "250px", // Ensures consistent width
+    maxWidth: "210px",
     width: "100%",
-    transition: "all 0.3s ease", // Optional: Add smooth animation for height changes
+    textAlign: "center",
+    textWrap: "balance",
+    // overflow: "hidden", // Prevents text overflow
   },
   clientImage: {
     width: "200px",
     height: "120px",
     objectFit: "contain",
     marginBottom: "20px",
-    paddingBottom:"8px",
+    paddingBottom: "8px",
     borderBottom: "2px solid #D8A25E",
   },
   companyName: {
