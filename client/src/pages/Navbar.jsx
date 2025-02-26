@@ -1,18 +1,12 @@
 import React, { useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from "/Mlogo.png";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
   const navLinks = [
-    { path: "/", label: "Home" },
     { path: "/about", label: "About Us" },
     { path: "/services", label: "Services" },
     { path: "/contact", label: "Contact Us" },
-    { path: "/family", label: "Family" },
-    { path: "/terms", label: "Terms" },
-    { path: "/policy", label: "Policy" },
   ];
 
   useEffect(() => {
@@ -36,7 +30,7 @@ const Navbar = () => {
         <ul>
           {navLinks.map((link) => (
             <li key={link.path}>
-              <button onClick={() => navigate(link.path)}>{link.label}</button>
+              <Link to={link.path}>{link.label}</Link>
             </li>
           ))}
         </ul>
@@ -49,38 +43,37 @@ export default Navbar;
 
 // Styles as a template string
 const styles = `
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    border-bottom: 2px solid #D8A25E;
-}
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: white;
+      border-bottom: 2px solid #D8A25E;
+  }
 
-.logo img {
-    width: 120px;
-}
+  .logo img {
+      width: 120px;
+  }
 
-.nav-links ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+  .nav-links ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
 
-.nav-links button {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: color 0.3s, font-weight 0.3s;
-    color: black;
-}
+  .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      transition: color 0.3s, font-weight 0.3s;
+  }
 
-.nav-links button:hover {
-    color: maroon;
-    font-weight: bold;
-}
+  .nav-links a:hover {
+      color: maroon;
+      font-weight: bold;
+  }
 `;
