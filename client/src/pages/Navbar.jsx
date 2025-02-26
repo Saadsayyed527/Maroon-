@@ -1,86 +1,76 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import Logo from "/Mlogo.png"
 
 const Navbar = () => {
-    const navigate = useNavigate();
+  const navLinks = [
+    { path: "/about", label: "About Us" },
+    { path: "/services", label: "Services" },
+    { path: "/contact", label: "Contact Us" },
+  ];
 
-    const handleNavigation = (url) => {
-        navigate(url);
+  useEffect(() => {
+    const styleSheet = document.createElement("style");
+    styleSheet.innerHTML = styles;
+    document.head.appendChild(styleSheet);
+
+    return () => {
+      document.head.removeChild(styleSheet);
     };
+  }, []);
 
-    return (
-        <div className="navbar">
-            <div className="logo">
-               <img src="Mlogo.png" alt="logo" width={"120px"} />
-            </div>
-            <div className="nav-links">
-            <button onClick={() => handleNavigation('/')}>Home</button>
-                <button onClick={() => handleNavigation('/about')}>About Us</button>
-                <button onClick={() => handleNavigation('/services')}>Services</button>
-                <button onClick={() => handleNavigation('/contact')}>Contact Us</button>
-               
-                <button onClick={() => handleNavigation('/family')}>Family</button>
-                <button onClick={() => handleNavigation('/terms')}>Terms</button>
-
-                <button onClick={() => handleNavigation('/policy')}>Policy</button>
-               
-              
-                <button onClick={() => handleNavigation('/socialmedia')}>SocialMedia</button>
-
-
-            </div>
-        </div>
-    );
+  return (
+    <header className="navbar">
+      <div className="logo">
+        <Link to="/" aria-label="Navigate to Home">
+          <img src={Logo} alt="Maroon Digital Rise Website Logo" width="120" />
+        </Link>
+      </div>
+      <nav className="nav-links font-outfit font-semibold text-2xl px-3" aria-label="Main Navigation">
+        <ul>
+          {navLinks.map((link) => (
+            <li key={link.path}>
+              <Link to={link.path}>{link.label}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  );
 };
 
 export default Navbar;
 
+// Styles as a template string
 const styles = `
-/* Navbar container */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #D8A25E;
 }
 
-/* Logo styling */
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: maroon;
 }
 
-.logo span {
-    color: orange;
-}
-
-/* Navigation links */
-.nav-links {
+.nav-links ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-links button {
-    background: none;
-    border: none;
+.nav-links a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     cursor: pointer;
     transition: color 0.3s, font-weight 0.3s;
 }
-
-.nav-links button:hover {
-    color: maroon;
-    font-weight: bold;
-    font-size:25px;
-}
 `;
-
-const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = styles;
-document.head.appendChild(styleSheet);
