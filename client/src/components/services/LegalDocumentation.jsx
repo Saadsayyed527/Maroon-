@@ -12,6 +12,7 @@ import icon3 from "/service_images/Legal Documentation/3.svg";
 import icon4 from "/service_images/Legal Documentation/4.svg";
 import icon5 from "/service_images/Legal Documentation/5.svg";
 import icon6 from "/service_images/Legal Documentation/6.svg";
+import ContactUs from "../../pages/ContactUs";
 const ServicesAccordion = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +30,7 @@ const ServicesAccordion = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -76,7 +77,7 @@ const ServicesAccordion = () => {
           <h6 className="font-semibold text-lg leading-6">
   Template Design:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Crafting professional invoice templates for businesses.</li>
   <li>Adding company logos, contact details, and payment terms.</li>
 </ul>
@@ -84,7 +85,7 @@ const ServicesAccordion = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Customization:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Incorporating tax breakdowns (e.g., GST) and currency symbols.</li>
   <li>Personalizing invoices for various industries (retail, services, etc.).</li>
 </ul>
@@ -92,7 +93,7 @@ const ServicesAccordion = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Digital Integration:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Designing invoices compatible with billing software like Tally, QuickBooks, or Zoho.</li>
   <li>E-invoice templates for email distribution.</li>
 </ul>
@@ -134,7 +135,7 @@ const ServicesAccordion2 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -182,7 +183,7 @@ const ServicesAccordion2 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Certificate Design:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Designing professional certificates for various purposes (completion, appreciation, achievement).</li>
   <li>Customizing layouts for events, workshops, and organizations.</li>
 </ul>
@@ -190,7 +191,7 @@ const ServicesAccordion2 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Security Features:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Adding watermarks, QR codes, or holographic effects for authenticity.</li>
   <li>Designing for both digital and printed formats.</li>
 </ul>
@@ -198,7 +199,7 @@ const ServicesAccordion2 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Personalization:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Pre-filling recipient names and details for ease of use.</li>
 </ul>
 
@@ -242,7 +243,7 @@ const ServicesAccordion3 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -290,14 +291,14 @@ const ServicesAccordion3 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Template Design:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Structuring professional contract templates for different purposes (business deals, employment, freelance agreements).</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Customization:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Adding company branding and essential terms specific to industries.</li>
   <li>Structuring layouts for easier reading and compliance.</li>
 </ul>
@@ -305,7 +306,7 @@ const ServicesAccordion3 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Digital Signing Features:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Designing contracts compatible with e-signature software.</li>
   <li>Adding secure fields for digital completion.</li>
 </ul>
@@ -350,7 +351,7 @@ const ServicesAccordion4 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -397,7 +398,7 @@ const ServicesAccordion4 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Custom Designs:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Designing personalized letterheads aligned with brand guidelines.</li>
   <li>Creating minimalist, professional, or creative styles.</li>
 </ul>
@@ -405,7 +406,7 @@ const ServicesAccordion4 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Digital and Print Versions:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Providing ready-to-print formats (PDF, AI, etc.).</li>
   <li>Editable templates for digital use.</li>
 </ul>
@@ -413,7 +414,7 @@ const ServicesAccordion4 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Customization Options:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Adding watermarks, logos, and brand colors.</li>
   <li>Designing for various paper sizes (A4, letter, etc.).</li>
 </ul>
@@ -458,7 +459,7 @@ const ServicesAccordion5 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -506,7 +507,7 @@ const ServicesAccordion5 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Professional Layouts:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Creating structured report designs for business presentations.</li>
   <li>Including graphs, tables, and infographics.</li>
 </ul>
@@ -514,7 +515,7 @@ const ServicesAccordion5 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Customizable Templates:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Editable templates for recurring reports (monthly, annual, etc.).</li>
   <li>Options for performance, financial, and project reports.</li>
 </ul>
@@ -522,7 +523,7 @@ const ServicesAccordion5 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Brand Consistency:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Ensuring company logos, colors, and fonts align with brand identity.</li>
 </ul>
 
@@ -566,7 +567,7 @@ const ServicesAccordion6 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -614,14 +615,14 @@ const ServicesAccordion6 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Agreement Drafting and Design:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Structuring layout designs for legal agreements (partnership, service-level agreements, etc.).</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Personalization:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Customizing agreements for specific industries or projects.</li>
   <li>Including client details, signatures, and confidentiality clauses.</li>
 </ul>
@@ -629,7 +630,7 @@ const ServicesAccordion6 = () => {
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Digital Accessibility:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Editable agreement formats for reuse.</li>
   <li>Print and digital delivery options.</li>
 </ul>
@@ -674,7 +675,7 @@ const ServicesAccordion7 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -723,7 +724,7 @@ const ServicesAccordion7 = () => {
             <h6 className="font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -731,7 +732,7 @@ const ServicesAccordion7 = () => {
             <h6 className="mt-4 font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -776,7 +777,7 @@ const ServicesAccordion8 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -825,7 +826,7 @@ const ServicesAccordion8 = () => {
             <h6 className="font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -833,7 +834,7 @@ const ServicesAccordion8 = () => {
             <h6 className="mt-4 font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -854,6 +855,7 @@ const ServicesAccordion8 = () => {
         </section>
       )}
     </div>
+
   );
 };
 
@@ -868,7 +870,7 @@ const ServicesAccordion8 = () => {
 const LegalDocumentation = () => {
   return (
     <>
-    <ServicesHeading text={"LegalDocumentation"} variant="style1_1" />
+    <ServicesHeading text={"Legal Documentation"} variant="style1_1" />
 
     {/* Main Content */}
     <div className="flex w-[93%] mt-4">
@@ -890,6 +892,8 @@ const LegalDocumentation = () => {
       
       </div>
     </div>
+        <ContactUs/>
+    
   </>
   );
 };

@@ -13,7 +13,6 @@ function ServicesHeading({text, variant}) {
     <>
       {/* Wrapper for the sticky header */}
       <div className="sticky top-0 bg-white z-10 leading-[0px]">
-        /
         <div className="my-[23px] flex items-center leading-[0]">
           {/* Left Side Icon */}
           <div className="ml-6">
@@ -23,9 +22,10 @@ function ServicesHeading({text, variant}) {
           </div>
 
           {/* Center Heading */}
-          <div className="flex-1 text-center mr-6">
-            <Heading text={text} variant={variant} />
-          </div>
+          <div className="flex-1 text-center mr-6 uppercase">
+  <Heading text={text} variant={variant} />
+</div>
+
         </div>
       </div>
     </>

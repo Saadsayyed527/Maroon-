@@ -14,6 +14,7 @@ import icon5 from "/service_images/Website Development/5.svg";
 import icon6 from "/service_images/Website Development/6.svg";
 import icon7 from "/service_images/Website Development/7.svg";
 import icon8 from "/service_images/Website Development/8.svg";
+import ContactUs from "../../pages/ContactUs";
 const ServicesAccordion = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,7 +32,7 @@ const ServicesAccordion = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -78,28 +79,28 @@ const ServicesAccordion = () => {
           <h6 className="font-semibold text-lg leading-6">
   Modern Aesthetics:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Visually appealing and brand-aligned designs.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Responsive Design:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Optimized for seamless use on all devices.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   SEO-Friendly Structure:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Improved search rankings with clean architecture.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Multimedia Integration:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Support for videos, animations, and other elements.</li>
 </ul>
 
@@ -140,7 +141,7 @@ const ServicesAccordion2 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -187,28 +188,28 @@ const ServicesAccordion2 = () => {
           <h6 className="font-semibold text-lg leading-6">
   User-Friendly Interfaces:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Intuitive designs for a smooth experience.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Scalable Solutions:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Technologies that grow with your business.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Industry-Specific Tools:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Custom applications for healthcare, finance, etc.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Cloud Integration:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Enhanced accessibility and performance through cloud services.</li>
 </ul>
 
@@ -252,7 +253,7 @@ const ServicesAccordion3 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -299,28 +300,28 @@ const ServicesAccordion3 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Advanced Search:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Filters and recommendation engines for better UX.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Interactive Tools:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Booking systems, chat features, and feedback forms.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Payment Systems:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Secure and diverse payment gateway integration.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Immersive Tech:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>AR/VR integrations for enhanced engagement.</li>
 </ul>
 
@@ -364,7 +365,7 @@ const ServicesAccordion4 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -412,28 +413,28 @@ Stay secure with robust, encrypted solutions that protect your website and user 
           <h6 className="font-semibold text-lg leading-6">
   SSL Encryption:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Secure data transfer with SSL certification.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Threat Protection:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Firewalls and malware defenses.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Vulnerability Testing:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Regular assessments to identify security gaps.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Backup Solutions:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Data recovery and backup services for peace of mind.</li>
 </ul>
 
@@ -477,7 +478,7 @@ const ServicesAccordion5 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -524,21 +525,21 @@ const ServicesAccordion5 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Conversion Optimization:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Designs that focus on turning visitors into leads.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Clear CTAs:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Strategically placed call-to-action buttons.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Performance Enhancement:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Fast loading times and SEO optimization.</li>
 </ul>
 
@@ -582,7 +583,7 @@ const ServicesAccordion6 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -629,28 +630,28 @@ const ServicesAccordion6 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Tailored Solutions:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Websites built from scratch to meet specific needs.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   High-Performance Standards:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Reliable, fast, and efficient coding.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Global Reach:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Multi-language support for an international audience.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Scalability:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Designed to adapt as your business grows.</li>
 </ul>
 
@@ -694,7 +695,7 @@ const ServicesAccordion7 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -741,28 +742,28 @@ const ServicesAccordion7 = () => {
           <h6 className="font-semibold text-lg leading-6">
   CRM Integration:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Sync with tools like Salesforce, HubSpot, or Zoho.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Payment Gateways:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Integrate PayPal, Stripe, Razorpay, and more.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Social Media APIs:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Seamless connectivity with Facebook, Instagram, etc.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Analytics Tools:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Integration of Google Analytics for actionable insights.
 </p>
 
@@ -806,7 +807,7 @@ const ServicesAccordion8 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -853,28 +854,28 @@ const ServicesAccordion8 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Ongoing Updates:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Ensures compatibility with new technologies.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Tracking & Monitoring:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Proactive support for uptime and security.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Bug Fixes:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Quick resolution of technical issues.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Content Management:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Updates to keep your site fresh and relevant.
 </p>
 
@@ -908,7 +909,7 @@ const ServicesAccordion8 = () => {
 const WebsiteDevelopment = () => {
   return (
     <>
-    <ServicesHeading text={"WebsiteDevelopment"} variant="style1_1" />
+    <ServicesHeading text={"Website Development"} variant="style1_1" />
 
     {/* Main Content */}
     <div className="flex w-[93%] mt-4">
@@ -930,6 +931,8 @@ const WebsiteDevelopment = () => {
       
       </div>
     </div>
+        <ContactUs/>
+    
   </>
   );
 };

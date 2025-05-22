@@ -1,33 +1,30 @@
 import React from "react";
 import clientData from "../data/clientdata.js";
-import Heading from "./Heading.jsx";
 
 function ClientCard() {
   return (
-    <>
-      <div className="mt-8">
-        <Heading text="Our Rising Clients" variant="style2" />
-      </div>
+    <div style={styles.scrollerWrapper}>
+      <div style={styles.scrollerTrack}>
+        {clientData.concat(clientData).map((client, index) => {
+          const isLastCard = index === clientData.length * 2 - 1;
 
-      <div style={styles.clientsSection}>
-        {clientData.map((client, index) => {
-          const isLastCard = index === clientData.length - 1; // Check if it's the last card
           return (
             <div
-              key={client.id}
+              key={index}
               style={{
                 ...styles.clientCard,
-                height: isLastCard ? "414px" : "auto",
+                height: isLastCard ? "380px" : "auto",
               }}
             >
-              <div className="px-4">
+              <div style={styles.imageWrapper}>
                 <img
                   src={`/clients/${client.image}`}
                   alt={client.companyName}
                   style={styles.clientImage}
                 />
               </div>
-              {!isLastCard && (
+
+              {!isLastCard ? (
                 <>
                   <h3 style={styles.companyName}>{client.companyName}</h3>
                   <p style={styles.servicesTitle}>Services:</p>
@@ -47,9 +44,8 @@ function ClientCard() {
                     View Project
                   </a>
                 </>
-              )}
-              {isLastCard && (
-                <p style={{ fontSize: "18px", width: "100%", textWrap: "wrap" }}>
+              ) : (
+                <p style={styles.lastCardText}>
                   This spot is reserved for You and Your Brand; let's build your
                   success story together. 🚀
                 </p>
@@ -58,44 +54,27 @@ function ClientCard() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
 
 export default ClientCard;
 
 const styles = {
-  clientsSection: {
-    // display: "grid",
-    // gridTemplateColumns: "repeat(6, 1fr)", // Create 6 equal columns
-    // justifyItems: "center",
-    // textAlign:"center",
-    // marginTop:"45px",
-    // margin: "30px",
-    // gap: "13px", // Add spacing between cards
-
-    display: "flex", // Change from grid to flex
-    overflowX: "auto", // Enable horizontal scrolling
-    whiteSpace: "nowrap", // Prevent wrapping
-    padding: "10px 30px",
-    gap: "25px", // Space between cards
+  scrollerWrapper: {
+    overflow: "hidden",
+    width: "100%",
+    padding: "20px 0",
+  },
+  scrollerTrack: {
+    display: "flex",
+    gap: "20px",
+    animation: "scrollRight 40s linear infinite",
+    width: "max-content",
   },
   clientCard: {
-    // backgroundColor: "#fff",
-    // padding: "10px",
-    // borderRadius: "20px",
-    // boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
-    // display: "flex",
-    // flexDirection: "column",
-    // alignItems: "center", // Center content horizontally
-    // fontFamily: "'Outfit', sans-serif",
-    // border: "1px solid black",
-    // maxWidth: "210px", // Set a maximum width for the card to make it smaller
-    // width: "100%",
-    // transition: "all 0.3s ease", // Optional: Add smooth animation for height changes
-
     backgroundColor: "#fff",
-    padding: "12px",
+    padding: "10px",
     borderRadius: "20px",
     boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
     display: "flex",
@@ -103,15 +82,17 @@ const styles = {
     alignItems: "center",
     fontFamily: "'Outfit', sans-serif",
     border: "1px solid black",
-    minWidth: "250px", // Ensures consistent width
-    maxWidth: "210px",
-    width: "100%",
+    width: "210px",
+    flexShrink: 0,
+    transition: "all 0.3s ease",
     textAlign: "center",
-    textWrap: "balance",
-    // overflow: "hidden", // Prevents text overflow
+  },
+  imageWrapper: {
+    padding: "0 10px",
+    width: "100%",
   },
   clientImage: {
-    width: "200px",
+    width: "100%",
     height: "120px",
     objectFit: "contain",
     marginBottom: "20px",
@@ -123,32 +104,32 @@ const styles = {
     fontSize: "18px",
     margin: "10px 0",
     color: "#000",
-    fontFamily: "'Outfit', sans-serif",
   },
   servicesTitle: {
     fontWeight: "700",
     fontSize: "16px",
     color: "#000",
-    fontFamily: "'Outfit', sans-serif",
   },
   servicesList: {
     listStyle: "none",
     fontSize: "16px",
     padding: 0,
     margin: "0 0 10px",
-    fontFamily: "'Outfit', sans-serif",
   },
   serviceItem: {
     fontSize: "14px",
     color: "#000",
-    fontFamily: "'Outfit', sans-serif",
   },
   viewProject: {
     fontWeight: "700",
     fontSize: "16px",
     color: "#0C8CE9",
     textDecoration: "none",
-    fontFamily: "'Outfit', sans-serif",
     marginTop: "auto",
+  },
+  lastCardText: {
+    fontSize: "18px",
+    lineHeight: "1.6",
+    textAlign: "center",
   },
 };

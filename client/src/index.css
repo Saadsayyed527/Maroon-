@@ -1,26 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* index.css or tailwind.css */
 
-
-/* *{
-  background:rgb(0 0 100/ 0.1);
+/* * {
+  background: rgb(0 100 0/ 0.1);
 } */
-/* Combine and refine the styles as needed */
+
 .combined {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
   color: white;
-  text-shadow: 
-      2px 2px 1px, 
-      3px 3px 0px #9C9C9C;  
+  text-shadow: 2px 2px 1px, 3px 3px 0px #9c9c9c;
 }
 
 /* Keep font-family declarations */
 .font-red-hat {
-  font-family: "Red Hat Display", sans-serif; 
+  font-family: "Red Hat Display", sans-serif;
 }
 
 .font-Alexandria {
-  font-family: 'Alexandria', sans-serif; 
+  font-family: "Alexandria", sans-serif;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.scrollerWrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.scrollerTrack {
+  display: flex;
+  gap: 20px;
+  animation: scrollRight 40s linear infinite;
+  width: max-content;
 }

@@ -12,6 +12,7 @@ import icon3 from "/service_images/E-Commerce/3.svg";
 import icon4 from "/service_images/E-Commerce/4.svg";
 import icon5 from "/service_images/E-Commerce/5.svg";
 import icon6 from "/service_images/E-Commerce/6.svg";
+import ContactUs from "../../pages/ContactUs";
 const ServicesAccordion = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +30,7 @@ const ServicesAccordion = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -76,35 +77,35 @@ const ServicesAccordion = () => {
           <h6 className="font-semibold text-lg leading-6">
   Optimized Product Titles:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Eye-catching and keyword-rich titles to rank higher in searches.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Detailed Product Descriptions:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Engaging content highlighting features, benefits, and specifications.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Listing Across Platforms:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Listing synchronization across platforms (Amazon, Flipkart, eBay, etc.).
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Category Mapping:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Accurate categorization for better discoverability.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Inventory Management:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Real-time tracking and updates for stock availability.
 </p>
 
@@ -144,7 +145,7 @@ const ServicesAccordion2 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -191,35 +192,35 @@ const ServicesAccordion2 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Shoppable Posts:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Enable direct purchases from social media platforms.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Product Tagging:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Highlight products in posts and stories for easy discovery.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Social Media Storefronts:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Seamless integration with platforms like Instagram Shops and Facebook Marketplace.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Engagement Insights:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Analyze user interactions to optimize social sales strategies.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Cross-Promotion:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Drive traffic between your e-commerce site and social channels.
 </p>
 
@@ -262,7 +263,7 @@ const ServicesAccordion3 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -309,35 +310,35 @@ const ServicesAccordion3 = () => {
             <h6 className="font-semibold text-lg leading-6">
   SEO-Friendly Descriptions:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Optimized for better visibility on search engines.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Tone Customization:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Tailored writing style to match your brand identity.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Feature Highlighting:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Clearly outline unique selling points and benefits.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Call-to-Action (CTA):
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Persuasive CTAs to guide users toward purchase decisions.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Multilingual Support:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Descriptions in multiple languages to cater to diverse audiences.
 </p>
 
@@ -381,7 +382,7 @@ const ServicesAccordion4 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -428,35 +429,35 @@ const ServicesAccordion4 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Custom Storefront Design:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Aesthetic, user-friendly designs reflecting your brand.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Responsive Layouts:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Optimized for desktop, mobile, and tablets.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Integrated Payment Solutions:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Support for multiple payment gateways and methods.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   User Journey Mapping:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Streamlined navigation for better shopping experiences.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Inventory & Order Management Systems:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Efficient backend tools for business operations.
 </p>
 
@@ -499,7 +500,7 @@ const ServicesAccordion5 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -546,35 +547,35 @@ const ServicesAccordion5 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Target Audience Analysis:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Identify and segment potential customers for focused marketing.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Multi-Channel Promotions:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Campaigns across email, social media, and search engines.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   A/B Testing:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Optimize ads, headlines, and visuals for higher engagement.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Seasonal Campaigns:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Strategic marketing during high-demand periods like festivals or sales.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Performance Analytics:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Measure and enhance campaign results for better ROI.
 </p>
 
@@ -618,7 +619,7 @@ const ServicesAccordion6 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -665,35 +666,35 @@ const ServicesAccordion6 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Ad Campaign Planning:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Goal-oriented campaigns designed to drive sales.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Google Shopping Ads:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Showcase your products directly in search results.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Social Media Ads:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Targeted ads on platforms like Instagram and Facebook.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Retargeting Campaigns:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Bring back potential customers who left your store.
 </p>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Performance Tracking:
 </h6>
-<p className="mt-2 font-normal text-lg leading-6">
+<p className="mt-2 font-normal text-lg leading-5">
   Regular reports to refine strategies and maximize results.
 </p>
 
@@ -736,7 +737,7 @@ const ServicesAccordion7 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -785,7 +786,7 @@ const ServicesAccordion7 = () => {
             <h6 className="font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -793,7 +794,7 @@ const ServicesAccordion7 = () => {
             <h6 className="mt-4 font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -838,7 +839,7 @@ const ServicesAccordion8 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -887,7 +888,7 @@ const ServicesAccordion8 = () => {
             <h6 className="font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -895,7 +896,7 @@ const ServicesAccordion8 = () => {
             <h6 className="mt-4 font-semibold text-lg leading-6">
               Content Creation:
             </h6>
-            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+            <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
               <li>Designing visually appealing posts, reels, and stories.</li>
               <li>Writing engaging captions with targeted hashtags.</li>
               <li>Creating carousel posts and IGTV videos.</li>
@@ -952,6 +953,8 @@ const Ecommerce = () => {
       
       </div>
     </div>
+        <ContactUs/>
+    
   </>
   );
 };
