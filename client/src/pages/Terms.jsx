@@ -1,13 +1,15 @@
 import React from 'react';
 import Heading from '../components/Heading';
+import HorizontalImageGallery from '../components/HorizontalImageGallery';
 
 const Terms = () => {
     return (
         <div style={styles.body}>
+            <Heading text="Terms Of Service" variant="style2" />
             <div style={styles.container}>
                 
                 {/* <div style={styles.title}>Terms and Conditions</div> */}
-                <Heading text="Terms Of Service" variant="style2" />
+                
                 <p style={styles.updatedDate}><strong>Last Updated:</strong> 1 January 2024</p>
 
                 <p><strong>Interpretation and Definitions</strong></p>
@@ -65,13 +67,15 @@ const Terms = () => {
                 <p><strong>Contact Us</strong><br />
                 If you have any questions about these Terms and Conditions, You can contact us via email or phone as listed on our official website.</p>
             </div>
+            {/* <HorizontalImageGallery /> */}
+
         </div>
     );
 };
 
 const styles = {
     body: {
-        fontFamily: `'Poppins', sans-serif`,
+        fontFamily: "'Outfit', sans-serif",
         margin: 0,
         padding: 0,
         boxSizing: 'border-box',

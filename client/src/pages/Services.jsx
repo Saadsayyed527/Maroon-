@@ -372,11 +372,12 @@ const Services = () => {
   };
 
   return (
+    <>
     <div style={styles.body} className="border-b-[2px] border-b-[#D8A25E]">
       <div style={styles.services}>
         <div className="border-t-[2px] border-t-[#D8A25E] mb-8">
           <Heading text="Our Services" variant="style2" />
-          <div className="w-1/3 h-[2px] bg-[#D8A25E] block mx-auto mt-4"></div>
+          <div className="h-[2px] bg-[#D8A25E] w-[52%] mx-auto"></div> 
         </div>
 
         <ul style={styles.serviceList}>
@@ -401,9 +402,11 @@ const Services = () => {
           ))}
         </ul>
       </div>
-    <ContactUs/>
     </div>
+    {/* <ContactUs/> */}
+</>
   );
+  
 };
 
 export default Services;

@@ -12,6 +12,7 @@ import icon5 from "/service_images/Business Essentials/5.svg";
 import icon6 from "/service_images/Business Essentials/6.svg";
 import icon7 from "/service_images/Business Essentials/7.svg";
 import icon8 from "/service_images/Business Essentials/8.svg";
+import ContactUs from "../../pages/ContactUs";
 const ServicesAccordion = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +30,7 @@ const ServicesAccordion = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -76,28 +77,28 @@ const ServicesAccordion = () => {
           <h6 className="font-semibold text-lg leading-6">
   Corporate Brochures:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Professional layouts for showcasing services and products.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Product Catalogs:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Detailed brochures for comprehensive product displays.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Event Brochures:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Custom designs for conferences, exhibitions, or special events.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Educational Brochures:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Informative materials for schools, universities, or workshops.</li>
 </ul>
 
@@ -138,7 +139,7 @@ const ServicesAccordionb = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -185,28 +186,28 @@ const ServicesAccordionb = () => {
           <h6 className="font-semibold text-lg leading-6">
   Restaurant Menus:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Creative and appetizing layouts for dine-in or takeaway.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Cafe Menus:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Trendy and artistic designs tailored to modern cafes.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Event Menus:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Elegant layouts for weddings, parties, or corporate events.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Digital Menus:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>QR-enabled menus for easy access and updates.</li>
 </ul>
 
@@ -250,7 +251,7 @@ const ServicesAccordion3 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -297,28 +298,28 @@ const ServicesAccordion3 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Corporate Presentations:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Polished slides for business meetings and pitches.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Investor Decks:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Compelling presentations to attract stakeholders.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Educational Slides:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Informative and engaging layouts for teaching or training.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Event-Specific Slides:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Custom themes for conferences and seminars.</li>
 </ul>
 
@@ -362,7 +363,7 @@ const ServicesAccordion4 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -409,28 +410,28 @@ const ServicesAccordion4 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Corporate Envelopes:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Professional branding for official use.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Custom Envelopes:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Unique layouts for personalized communication.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Thematic Designs:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Tailored designs for events, invitations, or promotions.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Secure Envelopes:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Tamper-proof solutions with branding.</li>
 </ul>
 
@@ -474,7 +475,7 @@ const ServicesAccordion5 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -521,28 +522,28 @@ const ServicesAccordion5 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Custom Designs:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Tailored layouts with unique typography and graphics.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Premium Cards:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Laminated, embossed, or foil-stamped options for luxury appeal.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Digital Visiting Cards:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Interactive, eco-friendly, and shareable formats.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Minimalistic Designs:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Simple, elegant cards focusing on clarity and professionalism.</li>
 </ul>
 
@@ -585,7 +586,7 @@ const ServicesAccordion6 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -632,28 +633,28 @@ const ServicesAccordion6 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Corporate ID Cards:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Personalized designs with branding for employees.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Event Badges:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Creative designs for attendees, speakers, or VIPs.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Smart Cards:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Integration with barcodes or RFID technology.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Security Cards:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Enhanced designs with holographic elements and watermarks.</li>
 </ul>
 
@@ -697,7 +698,7 @@ const ServicesAccordion7 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -744,35 +745,35 @@ const ServicesAccordion7 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Gift Tags and Cards:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Personalized tags for corporate or personal gifting.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Notepads/Diary:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Branded designs for internal or promotional use.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Calendars:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Stylish, functional calendars with custom themes for the year.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Seals and Stamps:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Custom rubber stamps, wax seal designs, and E-stamp for unique branding.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Pens & Accessories:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Stylish branding for daily essentials.</li>
 </ul>
 
@@ -816,7 +817,7 @@ const ServicesAccordion8 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -863,28 +864,28 @@ const ServicesAccordion8 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Custom Signatures:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Personalized, branded email sign-offs.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Interactive Signatures:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Embedded links to social media, websites, or contact forms.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Dynamic Signatures:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Rotating banners or seasonal updates.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Professional Designs:
 </h6>
-<ul className="mt-2 font-normal text-lg leading-6 list-disc pl-6">
+<ul className="mt-2 font-normal text-lg leading-5 list-disc pl-6">
   <li>Consistent branding across teams or organizations.</li>
 </ul>
 
@@ -917,7 +918,7 @@ const ServicesAccordion8 = () => {
 const BusinessEssentials = () => {
   return (
     <>
-    <ServicesHeading text={"BusinessEssentials"} variant="style1_1" />
+    <ServicesHeading text={"Business Essentials"} variant="style1_1" />
 
     {/* Main Content */}
     <div className="flex w-[93%] mt-4">
@@ -939,6 +940,8 @@ const BusinessEssentials = () => {
       
       </div>
     </div>
+        <ContactUs/>
+    
   </>
   );
 };

@@ -1,7 +1,7 @@
 const clientData = [
   {
     id: 1,
-    image: "client1.png",
+    image: "mess.png",
     companyName: "My Mess (Our Mess Services Pvt Ltd)*",
     services: [
       "Logo & Branding,",

@@ -19,6 +19,7 @@ import icon9 from "/service_images/Digital Marketing/9.svg";
 import icon10 from "/service_images/Digital Marketing/10.svg";
 import icon11 from "/service_images/Digital Marketing/11.svg";
 import icon12 from "/service_images/Digital Marketing/12.svg";
+import ContactUs from "../../pages/ContactUs";
 
 
 // client\public\service_images\Digital Marketing\Website Development-maroon-digital-rise-digital-marketing-pune-india.svg
@@ -40,7 +41,7 @@ const ServicesAccordion = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -87,35 +88,35 @@ const ServicesAccordion = () => {
           <h6 className="font-semibold text-lg leading-6">
         Profile Creation & Optimization:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Set up or enhance your GMB profile with accurate business details, images, and descriptions to attract local customers.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Google Posts Management:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Regularly publish posts featuring offers, updates, and events to engage potential customers.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Review Management:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Monitor and respond to customer reviews to build trust and improve reputation.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Insights Analysis:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Analyze GMB data like views, searches, and actions to optimize your presence further.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Local SEO Integration:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Use targeted keywords and location-based strategies to boost visibility in local search results.</li>
       </ul>
             {/* Arrow Up Icon inside the Accordion Body */}
@@ -154,7 +155,7 @@ const ServicesAccordionb = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -201,35 +202,35 @@ const ServicesAccordionb = () => {
           <h6 className="font-semibold text-lg leading-6">
         Custom Website Design:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Build tailored, mobile-responsive, and SEO-optimized websites aligned with your brand identity.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         E-Commerce Integration:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Develop platforms with secure payment gateways and user-friendly interfaces for online stores.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Speed Optimization:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Ensure quick loading times to enhance user experience and reduce bounce rates.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Maintenance & Support:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Provide regular updates, backups, and troubleshooting to keep your website running smoothly.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Content Management System (CMS):
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Implement easy-to-use systems like WordPress for ongoing website management.</li>
       </ul>
 
@@ -272,7 +273,7 @@ const ServicesAccordion3 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -319,35 +320,35 @@ const ServicesAccordion3 = () => {
           <h6 className="font-semibold text-lg leading-6">
         Keyword Research & Strategy:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Identify and target high-impact keywords relevant to your industry.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         On-Page Optimization:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Optimize titles, meta descriptions, headings, and content for better rankings.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Technical SEO:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Improve website speed, mobile responsiveness, and site architecture for search engine performance.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Off-Page Optimization:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Build high-quality backlinks and increase domain authority.</li>
       </ul>
 
       <h6 className="mt-4 font-semibold text-lg leading-6">
         Analytics & Reporting:
       </h6>
-      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+      <ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
         <li>Monitor progress and adjust strategies based on performance metrics.</li>
       </ul>
 
@@ -390,7 +391,7 @@ const ServicesAccordion4 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -437,35 +438,35 @@ const ServicesAccordion4 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Brand Monitoring:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Track mentions of your business across social media, blogs, and forums.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Review Management:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Encourage positive reviews and manage/respond to negative feedback effectively.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Crisis Management:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Handle negative PR situations with strategic communication.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Social Listening:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Use tools to understand customer sentiment and act proactively.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Content Publishing:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Distribute positive stories and testimonials to enhance brand image.</li>
 </ul>
 
@@ -508,7 +509,7 @@ const ServicesAccordion5 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -555,35 +556,35 @@ const ServicesAccordion5 = () => {
           <h6 className="font-semibold text-lg leading-6">
   CRM Setup & Configuration:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Implement tools like Salesforce, HubSpot, or Zoho tailored to your business needs.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Automation Integration:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Automate tasks like email follow-ups, lead scoring, and customer segmentation.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Training & Support:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Provide training for teams to use the CRM efficiently.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Data Migration:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Safely transfer data from old systems to new platforms.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Reporting & Insights:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Generate actionable insights for sales and marketing teams.</li>
 </ul>
 
@@ -627,7 +628,7 @@ const ServicesAccordion6 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -674,35 +675,35 @@ const ServicesAccordion6 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Newsletter Creation:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Design engaging newsletters to keep your audience informed.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Drip Campaigns:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Automate email sequences for onboarding, nurturing, and conversions.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Personalized Emails:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Use segmentation and customer data to create tailored messages.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Template Design:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Develop mobile-friendly and visually appealing templates.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Performance Analytics:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Track open rates, click-through rates, and conversions for optimization.</li>
 </ul>
 
@@ -746,7 +747,7 @@ const ServicesAccordion7 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -793,35 +794,35 @@ const ServicesAccordion7 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Location Pinning & Verification:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Add and verify your business location on Google Maps to ensure visibility.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Custom Mapping Solutions:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Highlight multiple branches or service areas for businesses with a wider reach.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Local Search Optimization:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Improve rankings for “near me” searches with strategic keyword placement.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   360-Degree Virtual Tours:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Create immersive experiences for customers with panoramic views of your business.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Map Reviews & Updates:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Regularly update hours, photos, and customer interactions to maintain relevance.</li>
 </ul>
 
@@ -864,7 +865,7 @@ const ServicesAccordion8 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -911,35 +912,35 @@ const ServicesAccordion8 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Pay-Per-Click (PPC) Campaigns:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Create targeted ad campaigns on Google Ads and other platforms.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Ad Copy Creation:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Develop compelling ad content for maximum clicks and conversions.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Bid Management:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Optimize ad spending to get the best ROI.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Landing Page Optimization:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Design high-converting landing pages to complement campaigns.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Performance Analysis:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Monitor and refine campaigns with detailed analytics.</li>
 </ul>
 
@@ -981,7 +982,7 @@ const ServicesAccordion9 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -1028,35 +1029,35 @@ const ServicesAccordion9 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Landing Page Optimization:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Design pages that encourage users to take specific actions.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   A/B Testing:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Test different website elements to see what drives conversions.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Call-to-Action (CTA) Design:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Create compelling CTAs that drive user engagement.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Heatmap Analysis:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Use tools to track user behavior on the website and identify areas for improvement.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Funnel Optimization:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Streamline user journeys from discovery to conversion.</li>
 </ul>
 
@@ -1101,7 +1102,7 @@ const ServicesAccordion10 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -1148,35 +1149,35 @@ const ServicesAccordion10 = () => {
           <h6 className="font-semibold text-lg leading-6">
   Campaign Strategy:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Develop custom strategies tailored to your business goals.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Ad Creation:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Design engaging and high-performing ads for Google, Bing, and social media platforms.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Keyword Bidding:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Manage bidding strategies to maximize ROI.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Performance Monitoring:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Track campaign performance and adjust strategies for better results.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Remarketing Campaigns:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Target previous website visitors with tailored ads to boost conversions.</li>
 </ul>
 
@@ -1219,7 +1220,7 @@ const ServicesAccordion11 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -1267,35 +1268,35 @@ const ServicesAccordion11 = () => {
           <h6 className="font-semibold text-lg leading-6">
   SEO Blogs:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Write keyword-optimized blogs that rank well on search engines.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Educational Content:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Create informative articles that provide value to readers.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Industry Insights:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Share updates and trends to position your brand as a thought leader.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Storytelling:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Craft engaging narratives that connect emotionally with your audience.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Content Calendar:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Plan and schedule posts for consistent publishing.</li>
 </ul>
 
@@ -1340,7 +1341,7 @@ const ServicesAccordion12 = () => {
     >
       {/* Accordion Header */}
       <div
-        className={`flex items-center px-4 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
+        className={`flex items-center px-3 py-1 bg-[#D9D9D9] text-black cursor-pointer ${
           isOpen ? "rounded-t-[15px]" : " rounded-[15px] shadow-accordionHead"
         }`}
         onClick={toggleAccordion}
@@ -1388,35 +1389,35 @@ their moment.
           <h6 className="font-semibold text-lg leading-6">
   SMS Campaigns:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Send personalized bulk SMS for offers, updates, and alerts.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   WhatsApp Messaging:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Use bulk WhatsApp messages for direct and interactive communication.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Targeted Outreach:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Segment your audience for better message targeting.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Automation Tools:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Use platforms for scheduled and recurring bulk messaging.</li>
 </ul>
 
 <h6 className="mt-4 font-semibold text-lg leading-6">
   Real-Time Tracking:
 </h6>
-<ul className="mt-2 list-disc list-inside font-normal text-lg leading-6">
+<ul className="mt-2 list-disc list-inside font-normal text-lg leading-5">
   <li>Monitor delivery rates and engagement metrics.</li>
 </ul>
 
@@ -1448,7 +1449,7 @@ their moment.
 const DigitalMarketing = () => {
   return (
     <>
-    <ServicesHeading text={"DigitalMarketing"} variant="style1_1" />
+    <ServicesHeading text={"Digital Marketing"} variant="style1_1" />
 
     {/* Main Content */}
     <div className="flex w-[93%] mt-4">
@@ -1474,6 +1475,8 @@ const DigitalMarketing = () => {
       
       </div>
     </div>
+        <ContactUs/>
+    
   </>
   );
 };
